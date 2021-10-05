@@ -1,3 +1,47 @@
 body {
-    color:blue;
+    color:rgb(81, 81, 247);
+}
+
+/* change colour of all paragraphs an */
+p, li {
+    color:coral;            
+
+}
+
+/* targetting child elements */
+section h1 {
+    color:hotpink;
+
+}
+
+/* style a class */
+.secondary-heading {
+    color:rgb(199, 199, 245);
+}
+
+/* style and id */
+#main-section {
+    color:rgb(175, 248, 248);
+    font-weight: bold;
+}
+
+/* link visited hover active */
+a:link {
+    color:lightgreen;
+}
+
+a:visited {
+     color:limegreen;
+}
+
+a:hover {
+    color:mediumpurple;
+}
+
+a:active {
+    color:midnightblue;
+}
+
+a[href="http://google.com"] {
+    color:lightseagreen;
 }
