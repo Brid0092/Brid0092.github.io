@@ -1,5 +1,7 @@
 body { /* 0,0,0,1 */
     color:rgb(81, 81, 247);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px
 }
 
 /* change colour of all paragraphs an */
@@ -46,4 +48,9 @@ a:active {
 
 a[href="http://google.com"] {
     color:lightseagreen;
+    text-decoration:none;
+}
+
+li:nith-child(odd) {
+    background:gray;
 }
